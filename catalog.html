@@ -4,23 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nergs</title>
+    <title>Nerds</title>
 </head>
 <body>
     <header>
         <img class="header-logo" src="img/nerds-logo.svg" width="160px" height="65px" alt="Логотип nerds">
     
         <ul class="header-nav">
-            <li>Студия</li>
-            <li>Клиенты</li>
-            <li><a href="#">Магазин</a></li>
-            <li>Контакты</li>
-            <li>Корзина</li>
+            <li><a href="#"> Студия</a></li>
+            <li><a href="#">Клиенты</a> </li>
+            <li>Магазин</li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#"> Корзина</a></li>
         </ul>      
 </header>
 
 <main>
     <h1>Магазин готовых шаблонов</h1>
+    <section>
+        <h2>Фильтр товаров</h2>
+        <form metod="get" action="">
+            <fieldset>
+                <legend>Сетка:</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="grid" value="adaptive" id="grid-adaptive" checked>
+                        <label for="">Адаптивная</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="grid" value="fixed" id="grid-fixed">
+                        <label for="">Фиксированная</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="grid" value="rubber" id="grid-rubber">
+                        <label for="">Резиновая</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Особенности:</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="slider" id="filter-slider" checked>
+                        <label for="filter-slider">Слайдер</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="block" id="filter-block">
+                        <label for="filter-block">Блок преимуществ</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="news" id="filter-news" checked>
+                        <label for="filter-news">Новости</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="gallery" id="filter-gallery">
+                        <label for="filter-gallery">Галерея</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="cart" id="filter-cart">
+                        <label for="filter-cart">Корзина</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Показать</button>
+        </form>
+</section>
+
     <section class="nerds-catalog">
         <img src="/img/img-sedona-1.jpg" width="360px" height="616px" alt="sedona illustration">
         <img src="/img/img-pink-1.jpg"  width="360px" height="616px" alt="pink illustration">
@@ -29,9 +78,11 @@
         <img src="/img/img-aplus-1.jpg"  width="360px" height="616px" alt="aplus illustration">
         <img src="/img/img-kvast-1.jpg"  width="360px" height="616px" alt="kvast illustration">
     </section>
+
+    
     <section class="main-card">
         <img src="/img/card.png" width="1442px" height="419px" alt="Карта">
-    </section>
+    </section>   
 </main>
 
   <footer>
