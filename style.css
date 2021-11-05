@@ -1,21 +1,76 @@
-.header-nav {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.site-navigation {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    align-items: center;
-    text-transform: uppercase;
-    color: #000;
+    color: #000000;
 }
 
-.header-nav a {
-    text-decoration: none;
-    color: #000;
+.description-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
 }
 
-.header-logo {
+.description-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
 }
+
+.development-item h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; 
+    color: #000000;
+}
+
+.development-item p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.slogan-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.order {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.order-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+
+
+
+
