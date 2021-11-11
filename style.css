@@ -114,3 +114,33 @@
   line-height: 22px;
   color: #444444;
 }
+
+
+/*catalog*/
+
+.catalog-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.filter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.filter-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #283136;
+}
