@@ -96,3 +96,21 @@
   line-height: 18px;
   color: #283136;
 }
+
+.footer-slogan {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.footer-sale {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
