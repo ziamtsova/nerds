@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <title>Nerds</title>
 </head>
 
 <body class="page-body">
 
-    <header class="main-header">
+    <header class="catalog-header">
         <nav class="main-navigation">
             <a class="main-header-logo">
             <img src="img/nerds-logo.svg" width="160px" height="67px" alt="Логотип nerds">
@@ -27,15 +29,15 @@
         </nav>
     </header>
 
-<main class="catalog-header">
-    <h1>Магазин готовых шаблонов</h1>
-    <section class="filter">
+<main class="catalog">
+    <h1 class="catalog-title">Магазин готовых шаблонов</h1>
+    <section class="products-filter">
         <h2>Фильтр товаров</h2>
         <form class="grid-form" metod="get" action="">
 
             <fieldset>
-                <legend>Сетка:</legend>
-                <ul>
+                <legend class="filter">Сетка:</legend>
+                <ul class="filter-type">
                     <li>
                         <input type="radio" name="grid" value="adaptive" id="grid-adaptive" checked>
                         <label for="">Адаптивная</label>
@@ -52,8 +54,8 @@
             </fieldset>
 
             <fieldset>
-                <legend>Особенности:</legend>
-                <ul>
+                <legend class="filter">Особенности:</legend>
+                <ul class="filter-type">
                     <li>
                         <input type="checkbox" name="slider" id="filter-slider" checked>
                         <label for="filter-slider">Слайдер</label>
