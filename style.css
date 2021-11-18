@@ -1,24 +1,36 @@
-.site-navigation {
-  font-family: Roboto;
-  font-style: normal;
+/* Global*/
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto', sans-serif;;
   font-weight: 500;
+  font-style: normal;
+}
+/*
+img {
+  min-width: 100%;
+  height: auto;
+}
+*/
+
+/* Variables */
+
+/* header */
+.main-navigation {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
 }
 
 .description-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
   font-size: 55px;
   line-height: 55px;
   color: #000000;
 }
 
 .description-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -26,8 +38,6 @@
 }
 
 .development-item h2 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
@@ -35,8 +45,6 @@
 }
 
 .development-item p {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -44,17 +52,12 @@
 }
 
 .slogan-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
   font-size: 45px;
   line-height: 45px;
   color: #000000;
 }
 
 .order {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -62,8 +65,6 @@
 }
 
 .order-item {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -71,8 +72,6 @@
 }
 
 .precisions {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
@@ -80,8 +79,6 @@
 }
 
 .precisions-item-percent {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 10px;
@@ -89,17 +86,15 @@
 }
 
 .precision-percent {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: #283136;
 }
 
+/*Footer*/
+
 .footer-slogan {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
@@ -107,8 +102,6 @@
 }
 
 .footer-sale {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
@@ -119,17 +112,13 @@
 /*catalog*/
 
 .catalog-title {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
   font-size: 55px;
   line-height: 55px;
   color: #000000;
 }
 
 .filter {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
@@ -137,7 +126,6 @@
 }
 
 .filter-type {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -146,17 +134,12 @@
 }
 
 .btn-show {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
 }
 
 .sort-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 18px;
@@ -164,8 +147,6 @@
 }
 
 .catalog-item-active {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -173,8 +154,6 @@
 }
 
 .catalog-item {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -182,6 +161,25 @@
   opacity: 0.3;
 }
 
+/*Grid*/
+
+/* Global */
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content
+  1fr
+  min-content;
+}
+
+.page {
+  height: 100%;
+}
+
+.main-header {
+  margin-bottom: 67px;
+}
 
 
 
