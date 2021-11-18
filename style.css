@@ -18,11 +18,42 @@ img {
 /* Variables */
 
 /* header */
-.main-navigation {
-  font-size: 16px;
-  line-height: 30px;
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+text-decoration: none;
+color: #000000;
+font-size: 16px;
+line-height: 30px;
+}
+
+.cart-navigation a {
+text-decoration: none;
+color: #000000;
+font-size: 16px;
+line-height: 30px;
+}
+
+.site-navigation a 
+.cart-navigation a {
   color: #000000;
 }
+
+.site-navigation a:hover,
+.cart-navigation a:hover {
+ color: #FB565A;
+}
+
+.site-navigation a:focus,
+.cart-navigation a:focus {
+  color: #000000;
+  opacity: 0.3;
+}
+
+/* description */
 
 .description-title {
   font-size: 55px;
@@ -36,6 +67,23 @@ img {
   line-height: 24px;
   color: #283136;
 }
+
+.button {
+  font: inherit;
+  background-color: #FB565A;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.button:focus {
+  color: #FFFFFF;
+  background-color: #FB565A;
+  opacity: 0.3;
+}
+
+/* development */
 
 .development-item h2 {
   font-weight: bold;
@@ -55,6 +103,10 @@ img {
   font-size: 45px;
   line-height: 45px;
   color: #000000;
+}
+
+.developments-list {
+  list-style: none;
 }
 
 .order {
