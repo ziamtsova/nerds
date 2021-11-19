@@ -85,6 +85,14 @@ line-height: 30px;
 
 /* development */
 
+.button-application {
+  background-color: #00CA74;
+}
+
+.button-presentation {
+  background-color: #000000 0.01%;
+}
+
 .development-item h2 {
   font-weight: bold;
   font-size: 24px;
@@ -105,8 +113,18 @@ line-height: 30px;
   color: #000000;
 }
 
-.developments-list {
+.development-item {
   list-style: none;
+}
+
+/* slogon */
+
+.slogan-text {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #283136;
 }
 
 .order {
@@ -120,6 +138,7 @@ line-height: 30px;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  list-style: none;
   color: #283136;
 }
 
@@ -128,6 +147,10 @@ line-height: 30px;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+
+.precisions-item {
+  list-style: none;
 }
 
 .precisions-item-percent {
@@ -144,7 +167,16 @@ line-height: 30px;
   color: #283136;
 }
 
+.logos-list {
+  list-style: none;
+
+}
+
 /*Footer*/
+
+.footer-social {
+  list-style: none;
+}
 
 .footer-slogan {
   font-weight: bold;
