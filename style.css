@@ -192,6 +192,11 @@ color: #283136;
   color: #444444;
 }
 
+.social-button img {
+  
+background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+
 
 /*catalog*/
 
