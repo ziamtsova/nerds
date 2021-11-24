@@ -146,6 +146,7 @@ color: #283136;
   color: #283136;
 }
 
+
 .precisions {
   font-weight: bold;
   font-size: 16px;
@@ -264,6 +265,7 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 
 .main-navigation {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .main-navigation-wrapper {
@@ -285,6 +287,41 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
   margin: 0 auto;
   padding: 0 140px;
 }
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 80px;
+}
+
+.developments-list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+}
+
+.developments-list p {
+  margin-right: 40px;
+}
+
+.logos-list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Slogan */
+
+.slogan {
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+}
+
+
+
 
 
 
