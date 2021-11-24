@@ -138,6 +138,10 @@ color: #283136;
   color: #283136;
 }
 
+.orders-list {
+  padding-left: 0;
+}
+
 .order-item {
   font-weight: normal;
   font-size: 16px;
