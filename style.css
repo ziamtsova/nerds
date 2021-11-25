@@ -322,7 +322,24 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 .slogan {
 display: grid;
 grid-template-columns: 1.5fr 1fr;
+padding-left: 90px;
 }
+
+/* logos */
+
+.logos {
+padding-left: 90px;
+}
+
+/* card */
+
+/* main-footer */
+
+.main-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
 
 
 
