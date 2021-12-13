@@ -341,13 +341,6 @@ padding-left: 90px;
 }
 
 
-
-
-
-
-
-
-
 /* Global */
 
 .page-body {
@@ -359,6 +352,16 @@ padding-left: 90px;
   min-content;
   align-content: center;
 }
+
+
+
+/*catalog*/
+
+.catalog {
+  display: grid;
+  grid-template-columns: 265px 1fr;
+}
+
 
 
 
