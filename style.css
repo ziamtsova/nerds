@@ -214,6 +214,7 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
   font-size: 55px;
   line-height: 55px;
   color: #000000;
+  text-align: center;
 }
 
 .filter {
@@ -361,6 +362,32 @@ padding-left: 90px;
   display: grid;
   grid-template-columns: 265px 1fr;
 }
+
+.nerds-catalog {
+  margin-left: 190px;
+}
+
+.catalog-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+.card-item {
+  width: 362px;
+  height: 620px; /*спросить*/
+  margin-right: 40px;
+  margin-top: 35px;
+}
+
+.card-item:nth-child(2n) {
+  margin-right: 290px;
+}
+
+
 
 
 
