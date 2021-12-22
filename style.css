@@ -23,8 +23,17 @@ img {
   background: rgba(0, 0, 0, 0.0001);
 } /* Спросить */
 
-.site-navigation {
+.site-navigation, 
+.cart-navigation {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-navigation a,
+.cart-navigation a {
+  display: block;
+  padding: 25px 20px;
 }
 
 .site-navigation a {
@@ -39,6 +48,7 @@ text-decoration: none;
 color: #000000;
 font-size: 16px;
 line-height: 30px;
+margin-right: 400px;
 }
 
 .site-navigation a 
@@ -292,6 +302,7 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 .main-header-logo {
   width: 160px;
   height: 67px;
+  margin-right: 200px;
 }
 
 /* Container */
