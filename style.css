@@ -73,6 +73,7 @@ margin-right: 400px;
   font-size: 55px;
   line-height: 55px;
   color: #000000;
+  margin-bottom: 30px;
 }
 
 .description-text {
@@ -80,6 +81,8 @@ margin-right: 400px;
   font-size: 16px;
   line-height: 24px;
   color: #283136;
+  margin: 0px;
+  margin-bottom: 45px;
 }
 
 .button {
@@ -89,6 +92,8 @@ margin-right: 400px;
   text-align: center;
   vertical-align: middle;
   border: none;
+  padding: 14px 50px 23px 50px;
+  text-transform: uppercase;
 }
 
 .button:focus {
