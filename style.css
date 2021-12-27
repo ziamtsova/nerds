@@ -129,7 +129,7 @@ margin-right: 400px;
 .slogan-title {
   font-size: 45px;
   line-height: 45px;
-  color: #000000;
+  color: #000000; 
 }
 
 .development-item {
@@ -137,6 +137,10 @@ margin-right: 400px;
 }
 
 /* slogon */
+
+.slogan {
+  margin-top: 200px;
+}
 
 .slogan-text {
 font-style: normal;
