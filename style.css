@@ -386,10 +386,9 @@ margin-bottom: 45px;
 
 .footer-social {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-  margin-left: 140px;
+  grid-template-columns: 1fr 2fr ;
+  margin-left: 400px;
   margin-top: 70px;
-
 }
 
 .footer-text {
@@ -460,6 +459,11 @@ margin-bottom: 45px;
   text-decoration: none;
 }
 
+.card {
+  width: 1442px;
+  height: 418px;
+  margin-left: 329px;
+}
 
 .catalog-card {
   display: grid;
