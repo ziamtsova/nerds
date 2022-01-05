@@ -450,12 +450,13 @@ margin-bottom: 45px;
 } 
 
 .catalog-card {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 360px 360px;
+  grid-column-gap: 40px;
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-bottom: 60px;
+  
 }
 
 .card-item {
