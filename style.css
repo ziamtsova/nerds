@@ -449,6 +449,18 @@ margin-bottom: 45px;
   margin-right: 20px;
 } 
 
+.catalog-pages li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.catalog-pages a {
+  text-decoration: none;
+}
+
+
 .catalog-card {
   display: grid;
   grid-template-columns: 360px 360px;
