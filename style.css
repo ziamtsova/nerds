@@ -426,6 +426,29 @@ margin-bottom: 45px;
   margin-left: 190px;
 }
 
+.catalog-sort {
+  display: flex;
+}
+
+.catalog-list {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.sort-title {
+  margin-right: 265px;
+}
+
+.catalog-item, 
+.catalog-item-active {
+  margin-right: 25px;
+}
+
+.img-sort {
+  margin-right: 20px;
+} 
+
 .catalog-card {
   display: flex;
   flex-wrap: wrap;
