@@ -67,6 +67,8 @@ margin-right: 400px;
   opacity: 0.3;
 }
 
+
+
 /* description */
 
 .description-title {
@@ -94,12 +96,19 @@ margin-right: 400px;
   border: none;
   padding: 14px 50px 23px 50px;
   text-transform: uppercase;
+   background-color: #FB565A;
 }
 
-.button:focus {
-  color: #FFFFFF;
-  background-color: #FB565A;
-  opacity: 0.3;
+.button-know:hover{
+  background: #E74246;
+}
+
+.button-know:focus{
+  background-color: #D7373B;
+}
+
+.button-know:focus span{
+  opacity: 30%;
 }
 
 /* development */
@@ -323,6 +332,15 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
   width: 160px;
   height: 67px;
   margin-right: 200px;
+
+}
+
+.main-header-logo:hover{
+  opacity: 80%;
+}
+
+.main-header-logo:focus{
+  opacity: 30%;
 }
 
 /* Container */
