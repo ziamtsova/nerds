@@ -121,6 +121,38 @@ margin-right: 400px;
   background-color: #00CA74;
 }
 
+.button-application:hover {
+  background-color: #00BC6C;
+}
+
+.button-application:focus {
+  background-color: #00AA62;
+}
+
+.button-application:focus span{
+  opacity: 30%;
+}
+
+.button-presentation {
+background-color: #EFC84A;
+}
+
+.button-presentation:hover {
+background-color: #EAB534;
+}
+
+.button-presentation:focus {
+  background-color: #E5A722;
+}
+
+.button-presentation:focus span {
+  opacity: 30%;
+}
+
+
+
+
+
 .button-presentation {
   background-color: #000000 0.01%;
 }
