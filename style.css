@@ -249,9 +249,19 @@ color: #283136;
   color: #283136;
 }
 
-.logos-list {
+.logos-list li{
   list-style: none;
+  opacity: 0.2;
+}
 
+
+
+.logos-list li:hover{
+  opacity: 1.0;
+}
+
+.logos-list:focus{
+  opacity: 0.1;
 }
 
 /*Footer*/
@@ -414,6 +424,8 @@ background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 .slogan {
 display: grid;
 grid-template-columns: 1.6fr 0.9fr;
+margin-left: 90px;
+
 }
 
 /* logos */
@@ -421,7 +433,9 @@ grid-template-columns: 1.6fr 0.9fr;
 .logos {
 margin-top: 140px;
 margin-bottom: 45px;
+margin-left: 120px;
 }
+
 
 /* card */
 
